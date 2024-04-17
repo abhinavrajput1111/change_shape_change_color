@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  flex-direction: column;
+}
+
+.back-circle {
+  background: purple;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.square {
+  background-color: white;
+  height: 90px;
+  width: 90px;
+}
+
+.rectangle {
+  background-color: lightpink;
+  height: 70px;
+  width: 120px;
+}
+
+.triangle {
+  background-color: rgb(247, 10, 1);
+  height: 120px;
+  width: 120px;
+  clip-path: polygon(0 30%, 0% 100%, 76% 100%);
+}
+
+.hexagon {
+  background-color: greenyellow;
+  height: 90px;
+  width: 90px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.circle {
+  background-color: azure;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.change-color {
+  padding: 0.5rem 0.5rem;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.change-shape {
+  padding: 0.5rem 0.5rem;
+  margin-top: 10px;
+  border-radius: 12px;
+}
